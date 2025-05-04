@@ -1,0 +1,26 @@
+body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #dropZone {
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  #dropZone:hover {
+    background-color: #e3f2fd;
+    transform: scale(1.02);
+  }
+  
+  .animate__pulse {
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  
